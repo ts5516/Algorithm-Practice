@@ -43,7 +43,7 @@ int main() {
 						int nx = x + dx[d];
 						int ny = y + dy[d];
 
-						// Ç×»ó ¹üÀ§¸¦ Àß ¼³Á¤Çß´ÂÁö È®ÀÎÇÏÀÚ
+						// í•­ìƒ ë²”ìœ„ë¥¼ ìž˜ ì„¤ì •í–ˆëŠ”ì§€ í™•ì¸í•˜ìž
 						if (nx >= 0 && nx < n && ny >= 0 && ny < m) {
 							if (!visited[nx][ny] && A[nx][ny] == 1) {
 								que.push({ nx, ny });
